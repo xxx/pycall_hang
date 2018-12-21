@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler'
+
+env = ENV['APP_ENV']&.to_sym || ENV['RACK_ENV']&.to_sym || :development
+Bundler.require(:default, env)
+
+root_dir = File.expand_path('..', __dir__)
+require_relative "#{root_dir}/classifier"
+
+# rubocop:disable Lint/Debugger
+binding.pry
+# rubocop:enable Lint/Debugger
+
+puts 'exiting'
+
+# vim: set ft=ruby:

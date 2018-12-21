@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+nltk = "*"
+fastText = {git = "https://github.com/facebookresearch/fastText.git",ref = "master"}
+spacy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.5"

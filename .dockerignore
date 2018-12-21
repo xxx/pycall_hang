@@ -1,0 +1,4 @@
+.idea/
+.git/
+training_data/
+models/*.bin

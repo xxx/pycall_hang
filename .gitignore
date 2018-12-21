@@ -1,0 +1,4 @@
+.idea/
+models/*.bin
+codeship_deploy.env
+codeship.aes
