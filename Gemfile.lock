@@ -44,15 +44,13 @@ GEM
       pry (~> 0.10)
     puma (3.12.0)
     pycall (1.0.3)
-    rack (2.0.6)
+    rack (2.0.8)
     rack-protection (2.0.4)
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rainbow (3.0.0)
     rake (12.3.2)
-    roda (3.15.0)
-      rack
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -114,7 +112,6 @@ DEPENDENCIES
   rack
   rack-test
   rake
-  roda
   rspec
   rubocop
   ruby-debug-ide (= 0.7.0.beta6)
