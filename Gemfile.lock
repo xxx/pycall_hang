@@ -21,7 +21,7 @@ GEM
     i18n (1.2.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.1)
-    json (2.1.0)
+    json (2.3.0)
     loofah (2.2.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -51,8 +51,6 @@ GEM
       rack (>= 1.0, < 3)
     rainbow (3.0.0)
     rake (12.3.2)
-    roda (3.15.0)
-      rack
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -114,7 +112,6 @@ DEPENDENCIES
   rack
   rack-test
   rake
-  roda
   rspec
   rubocop
   ruby-debug-ide (= 0.7.0.beta6)
